@@ -1,0 +1,88 @@
+#search-page {
+  height: 100vh;
+  background-image: url("../images/blood.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  #search-page .main-wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #search-page .main-wrapper .all-wrapper {
+      width: 50%;
+      margin-top: -100px;
+      text-align: center; }
+      #search-page .main-wrapper .all-wrapper .all-inputs {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        position: relative;
+        z-index: 999; }
+        #search-page .main-wrapper .all-wrapper .all-inputs .dropdown {
+          position: relative; }
+          #search-page .main-wrapper .all-wrapper .all-inputs .dropdown button {
+            height: 100%;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+            background-color: white;
+            color: #666;
+            width: 118px;
+            font-size: 15px; }
+            #search-page .main-wrapper .all-wrapper .all-inputs .dropdown button span {
+              text-align: right; }
+          #search-page .main-wrapper .all-wrapper .all-inputs .dropdown .dropdown-menu li a {
+            transition: 1s all; }
+            #search-page .main-wrapper .all-wrapper .all-inputs .dropdown .dropdown-menu li a:hover {
+              background: linear-gradient(#ef3d32, rgba(239, 61, 50, 0.7)) !important; }
+        #search-page .main-wrapper .all-wrapper .all-inputs input {
+          position: relative;
+          width: 100%;
+          height: 50px;
+          font-size: 17px;
+          font-family: "Montserrat", sans-serif;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 0px; }
+      #search-page .main-wrapper .all-wrapper .search {
+        position: relative;
+        z-index: 999;
+        margin-top: 30px;
+        margin-left: -30px;
+        background: white;
+        padding: 10px 20px;
+        font-size: 17px; }
+      #search-page .main-wrapper .all-wrapper .main-text {
+        z-index: 999;
+        position: relative;
+        text-align: center; }
+        #search-page .main-wrapper .all-wrapper .main-text h2 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 50px;
+          font-weight: 800;
+          line-height: 75px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+          color: white;
+          position: relative;
+          margin: 50px 0px; }
+          #search-page .main-wrapper .all-wrapper .main-text h2:after {
+            content: '';
+            position: absolute;
+            bottom: -16px;
+            left: calc(50% - 100px);
+            width: 150px;
+            border-bottom: 4px double white; }
+    #search-page .main-wrapper:before {
+      content: '';
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(black, rgba(239, 61, 50, 0.3));
+      z-index: 99; }
+
+/*# sourceMappingURL=style.css.map */
